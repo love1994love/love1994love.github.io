@@ -1,71 +1,46 @@
+# Welcome to Jekyll!
 #
-###################################
-# Site wide configuration
-####################################
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-title: Leowen
-email:
-description: Python、C/C++、Matlab以及AI算法分享！
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 热爱生活
+description: > # this means to ignore newlines until "baseurl:"
+  Python、Matlab、C/C++以及AI算法学习等分享！
+baseurl: ""
 url: "https://love1994love.github.io"
-keywords: ["python", "matlab", "AI", "C/C++"]
+permalink: /:year/:month/:day/:title
+repository: love1994love
+paginate: 5
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+# MatJek specific configurations
+github_profile: "https://github.com/ShawnTeoh"
+user: "John Doe"
+user_email: "john@doe.com"
+contact_url: "https://goo.gl/tVljbV"
+google_tracking_id: "UA-96359860-1"
+google_site_verification: "UA-96359860-1"
+disqus_shortname: "matjek"
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Leowen
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+future: true
