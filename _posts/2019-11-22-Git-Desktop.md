@@ -1,10 +1,11 @@
+---
 layout: post
 title:  "Git Desktop教程"
 date:   2019-11-22 14:30:13 +0800
 categories: 软件操作
 tags: 软件
 comments: 1
-
+---
 # 切换登陆账号
 
 <img src="https://i.loli.net/2019/11/22/U13iNgJOnKmotTr.png"/>
