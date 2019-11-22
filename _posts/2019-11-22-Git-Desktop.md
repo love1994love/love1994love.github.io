@@ -6,6 +6,8 @@ categories: software
 tags: software default
 comments: 1
 ---
+> 本文介绍了GitHub Desktop更换账号后，如何将本地文件推送到登陆账号的仓库中。
+
 #### 切换登陆账号
 
 <img src="https://i.loli.net/2019/11/22/U13iNgJOnKmotTr.png"/>
