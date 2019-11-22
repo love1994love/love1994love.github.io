@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Git Desktop教程"
-date:   2019-11-22 14:30:13 +0800
-categories: 软件操作
-tags: 软件
+date:   2019-11-22 14:30:13
+categories: "软件操作"
+tags: "软件"
 comments: 1
 ---
-# 切换登陆账号
+#### 切换登陆账号
 
 <img src="https://i.loli.net/2019/11/22/U13iNgJOnKmotTr.png"/>
 
@@ -14,7 +14,7 @@ comments: 1
 
 <img src="https://i.loli.net/2019/11/22/PG2RJweyTSLzEjr.png"/>
 
-# 配置 Who you are
+#### 配置 Who you are
 
 ```git
 git config --global user.name " user.name"
